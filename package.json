@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mateuszzylka/task-runner-1.6/issues"
   },
-  "homepage": "https://github.com/mateuszzylka/task-runner-1.6#readme"
+  "homepage": "https://github.com/mateuszzylka/task-runner-1.6#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
 }
