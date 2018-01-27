@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/mateuszzylka/task-runner-1.6#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.6"
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.23.6",
+    "globstar": "^1.0.0",
+    "nu-html-checker": "^0.1.0"
   }
 }
